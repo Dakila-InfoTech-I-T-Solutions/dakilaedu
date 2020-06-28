@@ -1,0 +1,8 @@
+Experimental Website Front-End  - https://phpcoach.joomla.com/ 
+Experimental Website Front-End  - https://phpcoach.joomla.com/administrator/
+
+Username: 
+Password: 
+Email: 
+Access Level: Super User 
+Resources: Configuration.php and Main SQL file 
