@@ -1,15 +1,35 @@
-<?php
-$servername = "localhost";
-$username = "username";
-$password = "password";
+<!doctype html> 
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/html.css">
+		<title>
+			Heading 1 to 6 
+		</title>
+	</head>
+	
+	<body>
 
-// Create connection
-$conn = new mysqli($servername, $username, $password);
+		<?php
+		$servername = "localhost";
+		$username = "root";
+		$password = "password";
 
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
-// Made by: Roland Diaz at https://rolandddiaz.joomla.com
-?> 
+		// Create connection
+		$conn = new mysqli($servername, $username, $password);
+
+		/ Check connection
+		if ($conn->connect_error) {
+  		die("Connection failed: " . $conn->connect_error);
+		}
+		echo "Connected successfully";
+		// Made by: Roland Diaz at https://rolandddiaz.joomla.com
+		?> 
+
+		<footer>
+			<p><a href="https://rolandddiaz.joomla.com/">Made by Roland Diaz</a></p>
+		</footer>
+
+	</body>
+
+</html>
