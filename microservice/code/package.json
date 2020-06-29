@@ -1,0 +1,22 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "Microservice Codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "code"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dakila-InfoTech-I-T-Solutions/dakilaedu/tree/master/microservice"
+  },
+  "keywords": [
+    "code"
+  ],
+  "author": "Roland Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "microservice": "^0.1.0"
+  },
+  "devDependencies": {}
+}

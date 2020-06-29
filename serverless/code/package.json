@@ -1,0 +1,18 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "Serverless Framework in a Code directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "code"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dakila-InfoTech-I-T-Solutions/dakilaedu/tree/master/serverless"
+  },
+  "keywords": [
+    "code"
+  ],
+  "author": "Roland Diaz",
+  "license": "ISC"
+}
