@@ -1,0 +1,22 @@
+How to create a react app? 
+
+1. Go to a directory where you want to install react. Note! do not use the word react in the folder you want react to install 
+2. Do this first - npm init and answer the questions., answer should be pointing to the name of the folder you want to create
+3. Install react in the folder - like this npm i react - wait more minutes until installation is done
+4. Now Create react app like this- npx create-react-app portfolio and wait also 
+5. Once done do like this- cd portfolio to get inside the main react portfolio directory 
+6. And do this- npm start  to run your first react in your browser 
+7. And your will see the http server details below. Copy the address to your browser if not automatically redirected 
+8. This Local: http://localhost:3000 is for your own computer access only
+9. This On Your Network:  http://192.168.1.8:3000 is for other computer connected in your local network
+10. To run your react again, just go back to number 6 and follow the instructions
+
+Compiled successfully!
+
+You can now view home in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.8:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.

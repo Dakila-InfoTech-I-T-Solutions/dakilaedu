@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "portfolio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "portfolio"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Roland Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {}
+}

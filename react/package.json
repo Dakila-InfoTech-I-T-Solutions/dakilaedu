@@ -1,0 +1,18 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "react",
+  "main": "index.js",
+  "scripts": {
+    "test": "react"
+  },
+  "repository": {
+    "type": "git",
+    "url": "react"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Roland Diaz",
+  "license": "ISC"
+}
