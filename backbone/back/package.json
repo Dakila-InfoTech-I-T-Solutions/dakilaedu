@@ -18,5 +18,6 @@
   "license": "ISC",
   "dependencies": {
     "backbone": "^1.4.0"
-  }
+  },
+  "devDependencies": {}
 }
