@@ -1,0 +1,22 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "Backbone.js library directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "back library "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rolandddiaz/dakilaedu/tree/master/backbone"
+  },
+  "keywords": [
+    "back",
+    "library"
+  ],
+  "author": "Roland Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "backbone": "^1.4.0"
+  }
+}
