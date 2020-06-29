@@ -1,0 +1,21 @@
+npm init next-app nextjs-backend --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
+cd nextjs-backend
+npm run dev
+
+npm run dev
+
+> learn-starter@0.1.0 dev C:\xampp\htdocs\dakilaedu\react\backend\nextjs-blog
+> next dev
+
+[ wait ]  starting the development server ...
+[ info ]  waiting on http://localhost:3000 ...
+Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+[ ready ] compiled successfully - ready on http://localhost:3000
+[ wait ]  compiling ...
+[ ready ] compiled successfully - ready on http://localhost:3000
+
+Docs- https://nextjs.org/docs 
+Learn- https://nextjs.org/learn/basics/create-nextjs-app
+Examples- https://github.com/vercel/next.js/tree/master/example
+Deploy- https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app
+

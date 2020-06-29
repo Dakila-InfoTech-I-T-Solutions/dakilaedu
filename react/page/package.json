@@ -1,0 +1,22 @@
+{
+  "name": "page",
+  "version": "1.0.0",
+  "description": "page",
+  "main": "index.js",
+  "scripts": {
+    "test": "page"
+  },
+  "repository": {
+    "type": "git",
+    "url": "page"
+  },
+  "keywords": [
+    "page"
+  ],
+  "author": "Roland Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {}
+}

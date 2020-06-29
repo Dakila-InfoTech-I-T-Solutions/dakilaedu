@@ -1,0 +1,671 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\DakilaComputer> cd..
+PS C:\Users> cd..
+PS C:\> dir
+
+
+    Directory: C:\
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/26/2020   2:36 PM                2FA
+d-----         6/1/2020   1:19 PM                adobe
+d-----        6/28/2020   3:23 AM                AUDIOVDEO
+d-----        6/20/2020   7:03 AM                BETA
+d-----        5/27/2020   4:17 AM                DCIM
+d-----        6/13/2020   8:26 AM                Development
+d-----        6/21/2020   7:25 PM                DITS
+d-----        6/19/2020   3:19 PM                DWMFCS
+d-----         6/7/2020  11:39 AM                edb
+d-----         6/4/2020  10:58 AM                exam
+d-----         6/8/2020   2:39 PM                GOOGLE-AUTH
+d-----         6/9/2020   7:52 PM                GOOGLE-SCANCODE
+d-----        6/13/2020   1:09 PM                HWID
+d-----        5/27/2020   1:50 AM                Intel
+d-----         6/1/2020   1:15 PM                Interview
+d-----        6/26/2020   7:51 PM                LIPARTNER
+d-----        6/19/2020  12:46 PM                LORDMERCHANT
+d-----        6/27/2020  10:13 AM                ME
+d-----        5/28/2020   7:54 PM                PerfLogs
+d-r---        6/28/2020   6:01 PM                Program Files
+d-r---        6/27/2020   5:15 PM                Program Files (x86)
+d-----         6/7/2020   6:40 AM                Python38
+d-----        6/19/2020   1:17 PM                ROCKETHEME
+d-----        6/10/2020   8:20 PM                SQL2019
+d-----        6/16/2020   6:55 PM                updaterlogs
+d-r---        6/22/2020   6:00 PM                Users
+d-----        6/22/2020   5:57 PM                Windows
+d-----         6/1/2020   1:18 PM                Wondershare Filmora 9.2.1.10 Full [4REALTORRENTZ.COM]
+d-----        5/27/2020   8:31 PM                xampp
+d-----         6/3/2020   8:16 AM                XM.COM
+-a----         9/3/2019   2:51 PM      114427127 Photoshop Portable CS6 x64 Multi.exe
+
+
+PS C:\> cd xampp
+PS C:\xampp> dir
+
+
+    Directory: C:\xampp
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        5/27/2020   3:29 AM                anonymous
+d-----        5/27/2020   3:29 AM                apache
+d-----        5/27/2020   3:33 AM                cgi-bin
+d-----        5/27/2020   3:29 AM                contrib
+d-----        5/27/2020   3:33 AM                FileZillaFTP
+d-----        6/29/2020   1:38 AM                htdocs
+d-----        5/27/2020   3:29 AM                img
+d-----        5/27/2020   3:33 AM                install
+d-----        5/27/2020   3:29 AM                licenses
+d-----        5/27/2020   3:29 AM                locale
+d-----        5/27/2020   3:29 AM                mailoutput
+d-----        5/27/2020   3:29 AM                mailtodisk
+d-----        5/27/2020   3:33 AM                MercuryMail
+d-----        5/27/2020   3:29 AM                mysql
+d-----        5/27/2020   3:30 AM                perl
+d-----        5/27/2020   3:33 AM                php
+d-----        5/27/2020   3:41 AM                phpMyAdmin
+d-----        5/27/2020   3:32 AM                sendmail
+d-----        5/27/2020   3:29 AM                src
+d-----        6/29/2020   9:43 AM                tmp
+d-----        5/27/2020   3:29 AM                tomcat
+d-----        5/27/2020   3:33 AM                webalizer
+d-----        5/27/2020   3:29 AM                webdav
+-a----         6/7/2013   7:15 PM            436 apache_start.bat
+-a----        5/27/2020   3:33 AM            176 apache_stop.bat
+-a----        3/30/2013   8:29 PM           9439 catalina_service.bat
+-a----       10/22/2019   9:36 PM           4478 catalina_start.bat
+-a----       10/22/2019   9:35 PM           4180 catalina_stop.bat
+-a----        5/27/2020   3:29 AM           2731 ctlscript.bat
+-a----        3/30/2013   8:29 PM             78 filezilla_setup.bat
+-a----         6/7/2013   7:15 PM            150 filezilla_start.bat
+-a----         6/7/2013   7:15 PM            149 filezilla_stop.bat
+-a----        8/27/2019  10:01 PM            299 killprocess.bat
+-a----         6/7/2013   7:15 PM            136 mercury_start.bat
+-a----         6/7/2013   7:15 PM             60 mercury_stop.bat
+-a----         6/3/2019   7:39 PM            471 mysql_start.bat
+-a----        5/27/2020   3:33 AM            256 mysql_stop.bat
+-a----        3/13/2017   7:04 PM            824 passwords.txt
+-a----        5/27/2020   3:32 AM            791 properties.ini
+-a----        5/18/2020   2:55 PM           7497 readme_de.txt
+-a----        5/18/2020   2:55 PM           7367 readme_en.txt
+-a----        3/30/2013   8:29 PM          60928 service.exe
+-a----        3/30/2013   8:29 PM           1255 setup_xampp.bat
+-a----       12/19/2019   1:25 AM           1671 test_php.bat
+-a----        5/27/2020   3:33 AM         227128 uninstall.dat
+-a----        5/27/2020   3:33 AM       12554862 uninstall.exe
+-a----         6/5/2019   8:10 PM        3368448 xampp-control.exe
+-a----        5/27/2020   3:33 AM            178 xampp-control.ini
+-a----        5/28/2020  12:06 AM           2802 xampp-control.log
+-a----        5/27/2020   3:29 AM           1084 xampp_shell.bat
+-a----        3/30/2013   8:29 PM         118784 xampp_start.exe
+-a----        3/30/2013   8:29 PM         118784 xampp_stop.exe
+
+
+PS C:\xampp> cd htdocs
+PS C:\xampp\htdocs> dir
+
+
+    Directory: C:\xampp\htdocs
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/22/2020   8:06 AM                boot.com
+d-----        6/13/2020  10:23 AM                composer
+d-----        6/28/2020  11:44 PM                dakila
+d-----        6/28/2020  11:46 PM                dakilaapps
+d-----        6/29/2020   1:38 AM                dakilaedu
+d-----        6/28/2020  11:42 PM                dakilaedux
+d-----        5/27/2020   3:45 AM                dakilajoomla
+d-----        5/29/2020   6:02 PM                dakilaphp
+d-----        5/27/2020   3:29 AM                dashboard
+d-----        5/27/2020   3:29 AM                img
+d-----        6/13/2020   7:00 PM                java
+d-----        6/27/2020  11:27 PM                libraries
+d-----        6/27/2020  11:23 PM                node_modules
+d-----        6/18/2020   3:30 PM                phpcoach
+d-----        6/28/2020   3:08 AM                projects
+d-----        6/26/2020   5:28 PM                react
+d-----        6/13/2020   9:51 AM                spring
+d-----        6/17/2020   2:25 PM                twig
+d-----        6/27/2020  10:56 PM                vanila
+d-----        6/27/2020  10:56 PM                vanilla
+d-----        5/27/2020   3:29 AM                webalizer
+d-----        5/27/2020   3:29 AM                xampp
+-a----        8/27/2019  10:02 PM           3607 applications.html
+-a----        8/27/2019  10:02 PM            177 bitnami.css
+-a----        7/16/2015  11:32 PM          30894 favicon.ico
+-a----        7/16/2015  11:32 PM            260 index.php
+-a----        6/27/2020  11:23 PM           2473 package-lock.json
+-a----        6/27/2020  11:23 PM            391 package.json
+
+
+PS C:\xampp\htdocs> cd dakilaedu
+PS C:\xampp\htdocs\dakilaedu> dir
+
+
+    Directory: C:\xampp\htdocs\dakilaedu
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/29/2020   1:38 AM                .github
+d-----        6/29/2020   1:38 AM                2fa
+d-----        6/29/2020   1:38 AM                365
+d-----        6/29/2020   1:38 AM                access
+d-----        6/29/2020   1:38 AM                ajax
+d-----        6/29/2020   1:38 AM                analytics
+d-----        6/29/2020   1:38 AM                android
+d-----        6/29/2020   1:38 AM                angular.js
+d-----        6/29/2020   1:38 AM                api
+d-----        6/29/2020   1:38 AM                apps
+d-----        6/29/2020   1:38 AM                asp
+d-----        6/29/2020   1:38 AM                aws
+d-----        6/29/2020   1:38 AM                azure
+d-----        6/29/2020   1:38 AM                babel
+d-----        6/29/2020   1:38 AM                backend
+d-----        6/29/2020   1:38 AM                bizintel
+d-----        6/29/2020   1:38 AM                bootstrap
+d-----        6/29/2020   1:38 AM                brand
+d-----        6/29/2020   1:38 AM                c
+d-----        6/29/2020   1:38 AM                c++
+d-----        6/29/2020   1:38 AM                captain
+d-----        6/29/2020   1:38 AM                cdn
+d-----        6/29/2020   1:38 AM                cloud
+d-----        6/29/2020   1:38 AM                colors
+d-----        6/29/2020   1:38 AM                composer
+d-----        6/29/2020   1:38 AM                console
+d-----        6/29/2020   1:38 AM                copyright
+d-----        6/29/2020   1:38 AM                css
+d-----        6/29/2020   1:38 AM                curl
+d-----        6/29/2020   1:38 AM                d3.js
+d-----        6/29/2020   1:38 AM                dakiladb
+d-----        6/29/2020   1:38 AM                dashboard
+d-----        6/29/2020   1:38 AM                database
+d-----        6/29/2020   1:38 AM                design
+d-----        6/29/2020   1:38 AM                desktop
+d-----        6/29/2020   1:38 AM                devops
+d-----        6/29/2020   1:38 AM                digitalm
+d-----        6/29/2020   1:38 AM                docker
+d-----        6/29/2020   1:38 AM                docs
+d-----        6/29/2020   1:38 AM                dom
+d-----        6/29/2020   1:38 AM                dotnetfk
+d-----        6/29/2020   1:38 AM                drupal
+d-----        6/29/2020   1:38 AM                dtd
+d-----        6/29/2020   1:38 AM                email
+d-----        6/29/2020   1:38 AM                ember.js
+d-----        6/29/2020   1:38 AM                entservice
+d-----        6/29/2020   1:38 AM                es15
+d-----        6/29/2020   1:38 AM                es6
+d-----        6/29/2020   1:38 AM                fonts
+d-----        6/29/2020   1:38 AM                forwarder
+d-----        6/29/2020   1:38 AM                founder
+d-----        6/29/2020   1:38 AM                frontend
+d-----        6/29/2020   1:38 AM                ftp
+d-----        6/29/2020   1:38 AM                fullstack
+d-----        6/29/2020   1:38 AM                gatsby
+d-----        6/29/2020   1:38 AM                google
+d-----        6/29/2020   1:38 AM                grav
+d-----        6/29/2020   1:38 AM                grunt
+d-----        6/29/2020   1:38 AM                gulp
+d-----        6/29/2020   1:38 AM                html
+d-----        6/29/2020   1:38 AM                http
+d-----        6/29/2020   1:38 AM                https
+d-----        6/29/2020   1:38 AM                icons
+d-----        6/29/2020   1:38 AM                importer
+d-----        6/29/2020   1:38 AM                ios
+d-----        6/29/2020   1:38 AM                iot
+d-----        6/29/2020   1:38 AM                java
+d-----        6/29/2020   1:38 AM                jest
+d-----        6/29/2020   1:38 AM                joomla
+d-----        6/29/2020   1:38 AM                jquery
+d-----        6/29/2020   1:38 AM                js
+d-----        6/29/2020   1:38 AM                json
+d-----        6/29/2020   1:38 AM                kubernets
+d-----        6/29/2020   1:38 AM                lambdadb
+d-----        6/29/2020   1:38 AM                linux
+d-----        6/29/2020   1:38 AM                localhost
+d-----        6/29/2020   1:38 AM                mac
+d-----        6/29/2020   1:38 AM                machine
+d-----        6/29/2020   1:38 AM                managers
+d-----        6/29/2020   1:38 AM                map
+d-----        6/29/2020   1:38 AM                mariadb
+d-----        6/29/2020   1:38 AM                mdn
+d-----        6/29/2020   1:38 AM                message
+d-----        6/29/2020   1:38 AM                microservice
+d-----        6/29/2020   1:38 AM                microsoft
+d-----        6/29/2020   1:38 AM                mobile
+d-----        6/29/2020   1:38 AM                mockup
+d-----        6/29/2020   1:38 AM                mongodb
+d-----        6/29/2020   1:38 AM                mssqldb
+d-----        6/29/2020   1:38 AM                mvc
+d-----        6/29/2020   1:38 AM                mysqldb
+d-----        6/29/2020   1:38 AM                network
+d-----        6/29/2020   1:38 AM                next
+d-----        6/29/2020   1:38 AM                nodejs
+d-----        6/29/2020   1:38 AM                nosql
+d-----        6/29/2020   1:38 AM                npm
+d-----        6/29/2020   1:38 AM                oauth
+d-----        6/29/2020   1:38 AM                openapi
+d-----        6/29/2020   1:38 AM                operators
+d-----        6/29/2020   1:38 AM                oracledb
+d-----        6/29/2020   1:38 AM                oweather
+d-----        6/29/2020   1:38 AM                owner
+d-----        6/29/2020   1:38 AM                passlock
+d-----        6/29/2020   1:38 AM                phone
+d-----        6/29/2020   1:38 AM                php
+d-----        6/29/2020   1:38 AM                phpfk
+d-----        6/29/2020   1:38 AM                phyton
+d-----        6/29/2020   1:38 AM                platform
+d-----        6/29/2020   1:38 AM                postgresql
+d-----        6/29/2020   1:38 AM                present
+d-----        6/29/2020   1:38 AM                provider
+d-----        6/29/2020   1:38 AM                rberrypi
+d-----        6/29/2020  11:01 AM                react
+d-----        6/29/2020   1:38 AM                redux
+d-----        6/29/2020   1:38 AM                regex
+d-----        6/29/2020   1:38 AM                remote
+d-----        6/29/2020   1:38 AM                responder
+d-----        6/29/2020   1:38 AM                router
+d-----        6/29/2020   1:38 AM                ruby
+d-----        6/29/2020   1:38 AM                safe
+d-----        6/29/2020   1:38 AM                sass
+d-----        6/29/2020   1:38 AM                schema
+d-----        6/29/2020   1:38 AM                security
+d-----        6/29/2020   1:38 AM                sem
+d-----        6/29/2020   1:38 AM                seo
+d-----        6/29/2020   1:38 AM                server
+d-----        6/29/2020   1:38 AM                serverless
+d-----        6/29/2020   1:38 AM                sharepoint
+d-----        6/29/2020   1:38 AM                shopify
+d-----        6/29/2020   1:38 AM                signs
+d-----        6/29/2020   1:38 AM                smo
+d-----        6/29/2020   1:38 AM                spring
+d-----        6/29/2020   1:38 AM                sql
+d-----        6/29/2020   1:38 AM                squarespare
+d-----        6/29/2020   1:38 AM                sun
+d-----        6/29/2020   1:38 AM                svg
+d-----        6/29/2020   1:38 AM                terminal
+d-----        6/29/2020   1:38 AM                themefk
+d-----        6/29/2020   1:38 AM                themes
+d-----        6/29/2020   1:38 AM                timem
+d-----        6/29/2020   1:38 AM                trademark
+d-----        6/29/2020   1:38 AM                typescript
+d-----        6/29/2020   1:38 AM                unix
+d-----        6/29/2020   1:38 AM                vanilla.js
+d-----        6/29/2020   1:38 AM                versionc
+d-----        6/29/2020   1:38 AM                video
+d-----        6/29/2020   1:38 AM                virtualh
+d-----        6/29/2020   1:38 AM                virtualm
+d-----        6/29/2020   1:38 AM                vreality
+d-----        6/29/2020   1:38 AM                vue.js
+d-----        6/29/2020   1:38 AM                web
+d-----        6/29/2020   1:38 AM                webmail
+d-----        6/29/2020   1:38 AM                webserver
+d-----        6/29/2020   1:38 AM                wix
+d-----        6/29/2020   1:38 AM                wordpress
+d-----        6/29/2020   1:38 AM                workers
+d-----        6/29/2020   1:38 AM                xml
+d-----        6/29/2020   1:38 AM                xpath
+d-----        6/29/2020   1:38 AM                xquey
+d-----        6/29/2020   1:38 AM                xslt
+d-----        6/29/2020   1:38 AM                yaml
+-a----        6/29/2020   1:38 AM            742 index.html
+
+
+PS C:\xampp\htdocs\dakilaedu> cd rect
+cd : Cannot find path 'C:\xampp\htdocs\dakilaedu\rect' because it does not exist.
+At line:1 char:1
++ cd rect
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\xampp\htdocs\dakilaedu\rect:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\xampp\htdocs\dakilaedu> cd react
+PS C:\xampp\htdocs\dakilaedu\react> dir
+
+
+    Directory: C:\xampp\htdocs\dakilaedu\react
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/29/2020  10:57 AM                admin
+d-----        6/29/2020  10:53 AM                backend
+d-----        6/29/2020  10:59 AM                front
+d-----        6/29/2020  10:50 AM                frontend
+d-----        6/29/2020  11:21 AM                page
+d-----        6/29/2020  10:39 AM                portfolio
+-a----        6/29/2020  11:01 AM             86 development-guide.txt
+-a----        6/29/2020   1:38 AM            742 index.html
+-a----        6/29/2020  10:03 AM            273 package.json
+
+
+PS C:\xampp\htdocs\dakilaedu\react> mkdir static
+
+
+    Directory: C:\xampp\htdocs\dakilaedu\react
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/29/2020  11:34 AM                static
+
+
+PS C:\xampp\htdocs\dakilaedu\react> cd static
+PS C:\xampp\htdocs\dakilaedu\react\static> dir
+PS C:\xampp\htdocs\dakilaedu\react\static> npm install -g gatsby-cli
+npm WARN deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+C:\Users\DakilaComputer\AppData\Roaming\npm\gatsby -> C:\Users\DakilaComputer\AppData\Roaming\npm\node_modules\gatsby-cli\cli.js
+
+> websocket@1.0.31 install C:\Users\DakilaComputer\AppData\Roaming\npm\node_modules\gatsby-cli\node_modules\websocket
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+
+C:\Users\DakilaComputer\AppData\Roaming\npm\node_modules\gatsby-cli\node_modules\websocket>if not defined npm_config_node_gyp (node "C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js" rebuild )
+
+> core-js@2.6.11 postinstall C:\Users\DakilaComputer\AppData\Roaming\npm\node_modules\gatsby-cli\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> gatsby-telemetry@1.3.14 postinstall C:\Users\DakilaComputer\AppData\Roaming\npm\node_modules\gatsby-cli\node_modules\gatsby-telemetry
+> node src/postinstall.js || true
+
+╔════════════════════════════════════════════════════════════════════════╗
+║                                                                        ║
+║   Gatsby collects anonymous usage analytics                            ║
+║   to help improve Gatsby for all users.                                ║
+║                                                                        ║
+║   If you'd like to opt-out, you can use `gatsby telemetry --disable`   ║
+║   To learn more, checkout https://gatsby.dev/telemetry                 ║
+║                                                                        ║
+╚════════════════════════════════════════════════════════════════════════╝
+
+> gatsby-cli@2.12.51 postinstall C:\Users\DakilaComputer\AppData\Roaming\npm\node_modules\gatsby-cli
+> node scripts/postinstall.js
+
+╔════════════════════════════════════════════════════════════════════════╗
+║                                                                        ║
+║   Gatsby collects anonymous usage analytics                            ║
+║   to help improve Gatsby for all users.                                ║
+║                                                                        ║
+║   If you'd like to opt-out, you can use `gatsby telemetry --disable`   ║
+║   To learn more, checkout https://gatsby.dev/telemetry                 ║
+║                                                                        ║
+╚════════════════════════════════════════════════════════════════════════╝
+Success!
+
+Welcome to the Gatsby CLI! Please visit https://www.gatsbyjs.org/docs/gatsby-cli/ for more information.
+
+npm WARN acorn-dynamic-import@4.0.0 requires a peer of acorn@^6.0.0 but none is installed. You must install peer dependencies yourself.
+
++ gatsby-cli@2.12.51
+added 996 packages from 694 contributors in 399.704s
+PS C:\xampp\htdocs\dakilaedu\react\static> gatsby new gatsby-site
+info Creating new site from git: https://github.com/gatsbyjs/gatsby-starter-default.git
+Cloning into 'gatsby-site'...
+remote: Enumerating objects: 29, done.
+remote: Counting objects: 100% (29/29), done.
+remote: Compressing objects: 100% (25/25), done.
+Uremote: Total 29 (delta 2), reused 27 (delta 2), pack-reused 0
+Unpacking objects: 100% (29/29), 632.85 KiB | 128.00 KiB/s, done.
+[32msuccess[39m Created starter directory layout
+[34minfo[39m Installing packages...
+[            ......] \ extract:core-js: sill extract core-js@2.6.11 extracted to C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_mod[            ......] \ extract:core-js: sill extract core-js@2.6.11 extracted to C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\[            ......][            ......] | extract:core-js-pure: sill extract core-js-pure@3.6.5 extracted to C:\xampp\htdocs\dakilaedu\[            ......] | extract[            ......] | extract:core-js-pure: sill extract core-js-pure@3.6.5 extracted to C:\xampp\htdocs\[            ......] | extract:core-js-p[            ......] | extract:core-js-pure: sill extract core-js-pure@3.6.5 extracted to C:\xam[            ......] | extract:core-js-pure: sill extract core-js-pure@3.6.5 extracted to C:\xampp\htdocs\dakilaedu\react\static\gatsby-[            ......] | extract:core-js-pure: sil[     [            ......] [            ......] | extract:core-js-pure: sill extract core-js-pure@3.6.5 extr[            ......] | extract:core-[        [            ......] | extr[        [        [            ......] | extract:rxjs: sill extract rxjs@6.5.5 extracted to C:\xampp\htdocs\[            ......] | extract:rxjs: sill extract rxjs@6.5.5 extracted to C:\xamp[            ......] | extract:rxjs: sill extract rxjs[            .....[        [            ......] \ finalize:@babel/plugin-syntax-jsx: sill finalize C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\[         [            ......] - refresh-package-json:sockjs: sill refresh-package-json C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_m
+> sharp@0.25.4 install C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\sharp
+> (node install/libvips && node install/dll-copy && prebuild-install --runtime=napi) || (node-gyp rebuild && node install/dll-copy)
+
+info sharp Downloading https://github.com/lovell/sharp-libvips/releases/download/v8.9.1/libvips-8.9.1-win32-x64.tar.gz
+info sharp Creating C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\sharp\build\Release
+info sharp Copying DLLs from C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\sharp\vendor\lib to C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\sharp\build\Release
+
+> websocket@1.0.31 install C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\websocket
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+
+C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\websocket>if not defined npm_config_node_gyp (node "C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js" rebuild )
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\bmp\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\core\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\custom\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\gif\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\jpeg\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-blit\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-blur\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-circle\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-color\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-contain\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-cover\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-crop\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-displace\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-dither\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-fisheye\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-flip\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-gaussian\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-invert\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-mask\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-normalize\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-print\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-resize\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-rotate\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-scale\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-shadow\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugin-threshold\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\plugins\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\png\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\tiff\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\types\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\@jimp\utils\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js-pure@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\jimp\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> gatsby-telemetry@1.3.13 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\gatsby-telemetry
+> node src/postinstall.js || true
+
+
+> cwebp-bin@5.1.0 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\cwebp-bin
+> node lib/install.js
+
+  √ cwebp pre-build test passed successfully
+
+> mozjpeg@6.0.1 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\mozjpeg
+> node lib/install.js
+
+  √ mozjpeg pre-build test passed successfully
+
+> pngquant-bin@5.0.2 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\pngquant-bin
+> node lib/install.js
+
+  √ pngquant pre-build test passed successfully
+
+> gatsby-cli@2.12.50 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\gatsby\node_modules\gatsby-cli
+> node scripts/postinstall.js
+
+
+> gatsby@2.23.10 postinstall C:\xampp\htdocs\dakilaedu\react\static\gatsby-site\node_modules\gatsby
+> node scripts/postinstall.js
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 2398 packages from 1356 contributors and audited 2405 packages in 1510.22s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+info
+Your new Gatsby site has been successfully bootstrapped. Start developing it by running:
+
+  cd gatsby-site
+  gatsby develop
+
+PS C:\xampp\htdocs\dakilaedu\react\static> cd gatsby-site
+PS C:\xampp\htdocs\dakilaedu\react\static\gatsby-site> gatsby develop
+success open and validate gatsby-configs - 85.879s
+success load plugins - 23.875s
+success onPreInit - 0.087s
+success initialize cache - 0.061s
+success copy gatsby files - 1.995s
+success onPreBootstrap - 0.227s
+success createSchemaCustomization - 0.015s
+success source and transform nodes - 0.268s
+success building schema - 0.610s
+success createPages - 0.010s
+success createPagesStatefully - 0.217s
+success updating schema - 0.053s
+success onPreExtractQueries - 0.006s
+success extract queries from components - 1.124s
+success write out redirect data - 0.083s
+success Build manifest and related icons - 0.424s
+success onPostBootstrap - 0.542s
+info bootstrap finished - 196.978s
+success run static queries - 0.259s - 3/3 11.59/s
+success run page queries - 0.371s - 6/6 16.15/s
+success write out requires - 0.048s
+success Generating image thumbnails - 11.874s - 6/6 0.51/s
+⠀
+You can now view gatsby-starter-default in the browser.
+⠀
+  http://localhost:8000/
+⠀
+View GraphiQL, an in-browser IDE, to explore your site's data and schema
+⠀
+  http://localhost:8000/___graphql
+⠀
+Note that the development build is not optimized.
+To create a production build, use gatsby build
+⠀
+success Building development bundle - 42.296s
+ 

@@ -1,0 +1,4 @@
+Dakila React Dev - Folder Structures 
+front- react.js
+back- next.js
+page- gatsby.js
